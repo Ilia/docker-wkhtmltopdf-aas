@@ -19,7 +19,7 @@ RUN apt-get update &&                          \
     xfonts-75dpi                               \
     xfonts-base
 
-ENV WK_URL=https://downloads.wkhtmltopdf.org/0.12/0.12.2.1
+ENV WK_URL=https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.2.1
 ENV WK_PKG=wkhtmltox-0.12.2.1_linux-trusty-amd64.deb
 ENV LPNG_URL=http://se.archive.ubuntu.com/ubuntu/pool/main/libp/libpng
 ENV LPNG_PKG=libpng12-0_1.2.54-1ubuntu1_amd64.deb
